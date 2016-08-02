@@ -33,14 +33,14 @@ delta_prompt_init() {
     export PROMPT_EOL_MARK=''
 
     autoload -Uz add-zsh-hook
-	autoload -Uz vcs_info
+    autoload -Uz vcs_info
 
     add-zsh-hook precmd delta_prompt_precmd
 
     zstyle ':vcs_info:*' enable git
     zstyle ':vcs_info:*' use-simple true
     zstyle ':vcs_info:git*' formats '%b'
-	zstyle ':vcs_info:git*' actionformats '%b|%a'
+    zstyle ':vcs_info:git*' actionformats '%b|%a'
 
     zstyle ':vcs_info:*' max-exports 2
 }
