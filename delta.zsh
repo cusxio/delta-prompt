@@ -10,11 +10,11 @@
 # http://zsh.sourceforge.net/Doc/Release/User-Contributions.html#Version-Control-Information
 
 delta_prompt_title() {
-	print -n '\e]0;'
+    print -n '\e]0;'
 
     print -Pn '%~'
 
-	print -n '\a'
+    print -n '\a'
 }
 
 delta_prompt_precmd() {
