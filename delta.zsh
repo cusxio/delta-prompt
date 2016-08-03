@@ -23,8 +23,10 @@ delta_prompt_precmd() {
     delta_prompt_title
 
     if [[ -z ${vcs_info_msg_0_} ]]; then
+        print ""
         PROMPT=" %F{red}Δ%f %c > "
     else
+        print ""
         PROMPT=" %F{red}Δ%f %c (${vcs_info_msg_0_}) > "
     fi
 }
