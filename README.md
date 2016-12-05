@@ -8,9 +8,9 @@
 
 To achieve the look and feel in the screenshot:
 
-1. [Oxygen Color Scheme](https://github.com/cusxio/dotfiles/blob/master/iTerm/Oxygen.itermcolors)
+1. [Oxygen Color Scheme](https://github.com/cusxio/dotfiles/blob/f23ff14211d53dbebae601b71b60759c7067835e/iTerm/Oxygen.itermcolors)
 
-2. [Tmux](https://github.com/cusxio/dotfiles/blob/master/tmux/theme.sh) configuration
+2. [Tmux](https://github.com/cusxio/dotfiles/blob/f23ff14211d53dbebae601b71b60759c7067835e/tmux/theme.sh) configuration
 
 3. [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro) @ 14pt
 
